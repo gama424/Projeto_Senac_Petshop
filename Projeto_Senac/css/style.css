@@ -1,0 +1,506 @@
+/*CSS DOCUMENT*/
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+/*body*/
+
+body, dl, dt, dd {
+    min-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*link*/
+
+/*Quem_Somos*/
+
+/*paragráfo*/
+#para{
+    margin-left: 2%;
+   }
+   
+   /*iframe*/
+   
+   #container_pet_quem_somos iframe{
+       width: 100%;
+       height: 300px;
+   }
+
+   /* formulário */
+   #container_formulario #inicio h1, hr {
+    color: #ba2c2b;
+  }
+  
+  #container_formulario #postit {
+    background: url(./images/postit.jpg) no-repeat center;
+    background-size: 75%;
+    font-size: 100%;
+    min-width: 300px;
+    text-align: center;
+    padding: 4%;
+    width: 20%;
+  }
+
+  #container_formulario #dog_banho {
+    bottom: 5%;
+    position: fixed;
+    right: 0%;
+  }
+  
+  #container_formulario #form {
+    background-color: gray;
+    border-radius: 0 5px 0 5px;
+    padding: 1%;
+    width: 80%;
+  }
+  
+  #container_formulario #form fieldset {
+    background-color: #ffffff;
+    border: solid white;
+    border-radius: 0 10px 0 10px;
+    margin: 1%;
+  }
+  
+  #container_formulario #form fieldset legend {
+    background-color: #ba2c2b;
+    color: white;
+  }
+  
+  #container_formulario #form .titulo_form {
+    background-color: #ba2c2b;
+    padding: 0.5%;
+    margin-left: -1.5%;
+  }
+  
+  #container_formulario #form .rotulo {
+    display: block;
+    float: left;
+    width: 10%;
+  }
+  
+  #container_formulario #form input[type="text"], input[type="email"], input[type="tel"] {
+    width: 60%;
+  }
+  
+  #container_formulario #form input[type="submit"] {
+    background-color: #ba2c2b;
+    border-radius: 50px;
+    color: white;
+    margin: 3% 0;
+    padding: 0.5% 2%;
+  }
+  
+  #container_formulario footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }  
+
+   /* curiosidades */
+   /* INICIO */
+   #container_curiosidades {
+     margin: 1%;
+   }
+#container_curiosidades #inicio {
+    display: table;
+  }
+  
+  #container_curiosidades #inicio h1, hr {
+    color: #ba2c2b;
+    margin: 0 0 1% 0;
+  }
+  
+  #container_curiosidades #inicio figure {
+    background-image: url(./images/back-bolinha.gif);
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #container_curiosidades #inicio h2 {
+    color: #ffffff;
+    font-size: 30px;
+    float: left;
+    padding: 10%;
+    width: 50%;
+  }
+  
+  #container_curiosidades #inicio img {
+    float: right;
+    width: 30%;  
+  }
+  
+  /* PERGUNTAS */
+  #container_curiosidades #perguntas ul li {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #container_curiosidades #perguntas ul .questao {
+    color: gray;
+  }
+  
+  /* IMAGENS DO MEIO */
+  #container_curiosidades #imagens_meio figure {
+    border: solid #ba2c2b;
+    border-radius: 35px 35px 0 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+  }
+  
+  #container_curiosidades #imagens_meio figure img {
+    width: 45%;
+  }
+  
+  #container_curiosidades #imagens_meio figure figcaption {
+    background-color: #ba2c2b;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 3px 0;
+  }
+  
+  /* LINKS PARA AS RAÇAS NA MESMA PÁGINA */
+  #container_curiosidades #links ul {
+    list-style: none;
+  }
+  
+  #container_curiosidades #links ul li a {
+    color: #ba2c2b;
+    font-weight: bold;
+    padding: 7px;
+    text-decoration: none;
+  }
+    
+  #container_curiosidades #links ul li a:hover {
+    text-decoration: underline;
+  }  
+  
+  /* SOBRE AS RAÇAS */
+  #container_curiosidades #racas dt {
+    background-color: #ba2c2b;
+    color: #ffffff;
+    padding: 3px;
+  }
+  
+  #container_curiosidades #racas dd {
+    border: solid #ba2c2b;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 30px;
+    margin-top: -3px;
+    padding: 20px 20px 0;
+  }
+  
+  #container_curiosidades #racas dd a[target="_blank"] {
+    color: #ba2c2b;
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px;
+    text-decoration: none;
+  }
+  
+  #container_curiosidades #racas dd a[target="_blank"]:hover {
+    text-decoration: underline;
+  }
+  
+  /* SETA PARA VOLTAR */
+  #container_curiosidades #subir {
+    position: fixed;
+    right: 0px;
+    top: 75%;
+    width: 5%;
+  }
+  
+  #container_curiosidades #subir a {
+    background: url(./images/seta-voltar.png) no-repeat left center;
+    color: #ba2c2b;
+    font-weight: bold;
+    padding: 1.75em;
+    text-decoration: none;
+  }
+  
+  #container_curiosidades #subir a:hover {
+    background: url(./images/seta-voltar-hover.png) no-repeat left center;
+    text-decoration: underline;
+  }
+   
+   /*quem somos*/
+   
+   #container_pet_quem_somos #quem_somos{
+       display: table;   
+   }
+   
+   
+   #container_pet_quem_somos img{
+       float: left; 
+       width: 20%;
+       height: auto;
+       margin-right: 30px;
+       border-radius: 50%;
+       box-shadow: 2px 1px 10px ;
+   
+   }
+   
+   #container_pet_quem_somos #art {
+       text-align: justify;
+       float:left;
+       width: 70%;
+   }
+   
+   /*Titulo*/
+   #container_pet_quem_somos .tema {
+       text-align: center;
+       width: 10%;
+   }
+   
+   h2, h3{
+       color: #ba2c2b;
+   }
+   
+   h1, h2, h3, h4, h5, h6{
+       font-family: 'Fredoka One', cursive;
+       
+   }
+/*Final quem_somos*/
+
+/*tabela*/
+
+/*fonte baixado do site da google*/
+/*Configuração geral da tabela */
+#container_tabela {
+    width: 90%; /*em relaçao ao body*/
+    margin: auto;
+    padding: 1%;
+    min-width: 1000px; /*padrão do projeto*/
+}
+
+/*div da tabela: tamanho*/
+#container_tabela table {
+    width: 65%;
+    margin: auto;
+}
+
+/*titulo da tabela*/
+#container_tabela caption {
+    font-size: 35px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+/*cabeçalho da tabela: Prod Marca Preço*/
+#container_tabela th {
+    font-size: 25px;
+    color: #ba2c2b;
+}
+
+/*ediçao da fonte e parte central da tabela*/
+#container_tabela td {
+    font-family: 'Nunito', sans-serif;/*Padrao*/
+    text-align: center;
+    font-size: 20px;
+}
+
+/*ediçao da borda, alinham.central e cor de fundo*/
+#container_tabela tbody {
+    border: solid black 2px;
+    align-content: center;
+    background-color: white;
+}
+
+/*tamanho das figuras da tabela*/
+#container_tabela img {
+    width: 35%; 
+}
+
+/*Mensagem do rodape dentro da tabela*/
+#container_tabela tfoot {
+    background-color: bisque;
+}
+/*Fim tabela*/
+
+/* ediçao do cabeçalho */
+
+
+/* imagens */
+.banner1{
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    padding-left: 10%;
+}
+
+#redes{
+    width: 14%;
+    float: right;
+    padding-right: 1%;
+
+}
+
+
+
+.logo{
+    width: 15%;
+    float: left;
+    padding-right: 2%;
+    padding: 0;
+    margin: 0;
+    padding-left: 5%;
+}
+/* imagens */
+
+header h1{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* menu litas */
+
+
+header .menu1{
+    background-color: rgb(255, 255, 255);
+    /* height: 260px; */
+    width: 100%;
+
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+header .menu1 a:hover {
+    background-color: rgb(190, 55, 37);
+    padding: auto;
+}
+header .menu1 a{
+    text-decoration: none;
+    list-style: none;
+    padding: 1% 0%;
+    color: rgb(255, 255, 255);
+}
+  header .menu1 ol{
+      background-color: black;
+}
+
+.list ol{
+    display: flex;
+    justify-content: space-around;
+    bottom: 10px
+}
+
+/* fim do cabeçalho */
+
+
+
+
+
+/* ediçao do home */
+
+
+#home{
+    display: table;
+}
+
+
+#home img{
+    width: 90%;
+
+}
+/* sessoes */
+
+#home .banner{
+    width: 45%;
+    float: left;
+
+}
+
+#home .sessao1{
+    width: 25%;
+    float: left;
+}
+
+
+#home .sessao2{
+    width: 25%;
+    float: left;
+    padding-left: 1%;
+}
+
+
+
+/* sessoes imagens */
+.osso{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 25%;
+}
+.mutley, .cachorro2{
+    width: 28%;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+.cachorro{       /* banner da home */
+    width: 100%;
+    padding-left: 7%;
+    padding-top: 8%;
+}
+.gato{
+    width: 100%;
+    padding-top: 15%;
+    padding-left: 8%;
+}
+.gifgato{
+    padding-top: 30%;
+}
+/* sessoes imagens */
+
+
+
+
+/* audio */
+
+.audio{
+    width: 90%;
+    padding-left: 5%;
+}
+/* audio */
+
+
+
+/* textos */
+
+.banner h2, p{
+    text-align: center;
+    padding-left: 1%;
+   
+}
+.sessao1 h2{
+    font-size: 20px;
+}
+
+#home .sessao1 h2{
+    text-align: center;
+}
+
+#home .sessao2 h2{
+    text-align: center;
+    float: right;
+    padding-right: 7%;
+}
+
+
+/* link whatsapp */
+  .wpp{
+    width: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 1%;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
