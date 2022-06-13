@@ -1,0 +1,76 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fredoka One", cursive;
+}
+
+#container_formulario body {
+  margin: auto;
+  min-width: 1000px;
+  width: 80%;
+}
+
+#container_formulario #inicio h1, hr {
+  color: #ba2c2b;
+}
+
+#container_formulario #postit {
+  background: url(../imgs/postit.jpg) no-repeat center;
+  background-size: 75%;
+  font-size: 100%;
+  min-width: 300px;
+  text-align: center;
+  padding: 4%;
+  width: 20%;
+}
+
+#container_formulario #form {
+  background-color: gray;
+  border-radius: 0 5px 0 5px;
+  padding: 1%;
+  width: 80%;
+}
+
+#container_formulario #form fieldset {
+  background-color: #ffffff;
+  border: solid white;
+  border-radius: 0 10px 0 10px;
+  margin: 1%;
+}
+
+#container_formulario #form fieldset legend {
+  background-color: #ba2c2b;
+  color: white;
+}
+
+#container_formulario #form .titulo_form {
+  background-color: #ba2c2b;
+  padding: 0.5%;
+  margin-left: -1.5%;
+}
+
+#container_formulario #form .rotulo {
+  display: block;
+  float: left;
+  width: 10%;
+}
+
+#container_formulario #form input[type="text"], input[type="email"], input[type="tel"] {
+  width: 60%;
+}
+
+#container_formulario #form input[type="submit"] {
+  background-color: #ba2c2b;
+  border-radius: 50px;
+  color: white;
+  margin: 3% 0;
+  padding: 0.5% 2%;
+}
+
+#container_formulario footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}

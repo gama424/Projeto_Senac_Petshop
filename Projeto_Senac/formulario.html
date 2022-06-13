@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
+  </head>
+  <body>
+    <header>
+
+
+      <div class="menu1">
+
+
+<!-- ediçao banner -->
+
+<img class="banner1" src="./css/images/banner.png" alt="banner">
+
+
+
+<!-- logo tipo -->
+<img class="logo" src="./css/images/petshop.jpg" alt="logo da petshop">
+
+
+
+
+<!-- redes sociais -->
+<img id="redes" src="./css/images/pata.jpg" usemap="#image-map">
+<map name="image-map">
+<area target="_blank" alt="FACEBOOK" title="FACEBOOK" href="https://pt-br.facebook.com/" coords="15,86,64,153" shape="rect">
+<area target="_blank" alt="PINTEREST" title="PINTEREST" href="https://br.pinterest.com/" coords="56,21,99,93" shape="rect">
+<area target="_blank" alt="TWITTER" title="TWITTER" href="https://twitter.com/" coords="160,0,101,53" shape="rect">
+<area target="_blank" alt="INSTAGRAM" title="INSTAGRAM" href="https://www.instagram.com/" coords="130,74,201,138" shape="rect">
+</map>
+
+
+<nav class="list">
+<!-- menu -->
+
+<ol>
+
+<a href="./index.html"><li>Home</li></a>
+<a href="./pet_quem_somos.html"><li>Quem Somos</li></a>
+<a href="./tabeladog.html"><li>Produtos</li></a>
+<a href="./formulario.html"><li>Banho e Tosa</li></a>
+<a href="./curiosidades.html"><li>Curiosidades</li></a>
+
+</ol>
+
+</nav>
+          </div>
+
+</header>
+
+    <div id="container_formulario">
+      <section id="inicio">
+        <h1>Agendamento para banho e tosa</h1>
+
+        <hr>
+
+        <div id="postit">
+          Faça o seu<br>
+          agendamento<br>
+          com pelo menos<br>
+          48 horas de<br>
+          antecedência
+        </div>
+
+        <div id="dog_banho">
+          <img src="./css/images/dog-banho.png" alt="cachorro tomando banho">
+        </div>
+      </section>
+
+      <section id="form">
+        <form action="form.html" method="POST">
+          <fieldset id="ident_dono">
+            <legend class="titulo_form">Identificação do dono do animal</legend>
+
+            <label class="rotulo" for="nome_dono">Nome: </label>
+            <input type="text" placeholder="Digite o nome completo do dono do animal"><br>
+
+            <label class="rotulo" for="endereco">Endereço: </label>
+            <input type="text" placeholder="Digite o endereço"><br>
+
+            <label class="rotulo" for="cep">CEP: </label>
+            <input type="text" placeholder="XXXXX-XXX"><br>
+
+            <label class="rotulo" for="email">Email: </label>
+            <input type="email" placeholder="Digite o endereço de email"><br>
+
+            <label class="rotulo" for="telefone">Tel/Cel: </label>
+            <input type="tel" placeholder="(99) 99999-9999"><br>
+          </fieldset>
+
+          <fieldset id="ident_animal">
+            <legend class="titulo_form">Animal</legend>
+
+            <label class="rotulo" for="nome_animal">Nome: </label>
+            <input type="text" placeholder="Digite o nome do animal"><br>
+
+            <label for="porte_animal">Porte do cão: </label>
+            <input type="radio" name="porte_animal" value="animal_pequeno">pequeno
+            <input type="radio" name="porte_animal" value="animal_medio">médio
+            <input type="radio" name="porte_animal" value="animal_grande">grande<br>
+
+            <label for="tipo_tosa">Tipo de tosa: </label>
+            <select name="tipo_tosa">
+              <option value="sem_tosa">Nenhuma</option>
+              <option value="tosa_padrao">Tosa padrão</option>
+              <option value="tosa_higienica">Tosa higiênica</option>
+              <option value="tosa_tesoura">Tosa na tesoura</option>
+              <option value="tosa_raca">Tosa da raça</option>
+              <option value="tosa_bebe">Tosa bebê</option>
+            </select><br>
+
+            <label for="observacoes">Observações: </label>
+            <textarea name="texto_observacoes" cols="100" rows="5">Digite alguma informação sobre o animal se necessário.</textarea><br>
+          </fieldset>
+
+          <fieldset id="horário">
+            <legend class="titulo_form">Horário - (Não atendemos Domingo e Segunda-feira)</legend>
+
+            <label for="dia_da_tosa">Indique os dias da semana de sua preferência:</label><br>
+            <input type="checkbox">
+            <label for="terca_feira">Terça-feira</label>
+            <input type="checkbox">
+            <label for="quarta_feira">Quarta-feira</label>
+            <input type="checkbox">
+            <label for="quinta_feira">Quinta-feira</label>
+            <input type="checkbox">
+            <label for="sexta_feira">Sexta-feira</label>
+            <input type="checkbox">
+            <label for="sabado">Sábado</label><br>
+
+            <label for="primeira_opcao_horario">Primeira opção de horário: </label>
+            <input type="date"><br>
+
+            <label for="segunda_opcao_horario">Segunda opção de horário: </label>
+            <input type="date"><br>
+          </fieldset>
+
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+      <footer>
+        <a href=""> <p>Atendimento: atendimento@meuamigocaopetshop.com</p> </a>
+                <a href="https://api.whatsapp.com/send?phone=11958817525">
+          <img src="./css/images/wpp.png" alt="envie-nos uma mensagem" class="wpp">
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
